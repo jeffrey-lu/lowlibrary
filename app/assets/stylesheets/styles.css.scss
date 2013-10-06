@@ -1,5 +1,5 @@
-$baseFontFamily: Oxygen;
-@import url(http://fonts.googleapis.com/css?family=Oxygen);
+/*$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
 
 $navbarBackgroundHighlight: white;
 $navbarBackground: white;
@@ -9,7 +9,7 @@ $navbarBackground: white;
 @import 'bootstrap-responsive';
 
 .container-narrow {
-	max-width: 800px;
+	max-width: 700px;
 }
 
 .jumbotron {
@@ -17,9 +17,11 @@ $navbarBackground: white;
 	text-align: center;
 }
 
-
 #h1_about {
-	font-size: 40px;
+	font-size: 72px;
+	line-height: 1;
+	font-weight: bold;
+	text-rendering: optimizelegibility;
 }
 
 p {
