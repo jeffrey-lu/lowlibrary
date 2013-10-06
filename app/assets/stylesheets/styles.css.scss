@@ -8,6 +8,11 @@ $navbarBackground: white;
 
 @import 'bootstrap-responsive';
 
+.brand {
+	font-family: Crimson;
+	font-weight: bold;
+}
+
 .container-narrow {
 	max-width: 700px;
 }
